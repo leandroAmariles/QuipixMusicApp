@@ -1,3 +1,7 @@
 [submodule "musicApp"]
 	path = musicApp
 	url = https://github.com/leandroAmariles/musicApp.git
+[submodule "musicAppPersist"]
+	path = musicAppPersist
+	url = https://github.com/leandroAmariles/musicPersist.git
+
