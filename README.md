@@ -48,6 +48,14 @@ Generate a token with postman
 <img alt="img6.png" src="\TechicalTesQuipux\images\img_6.png"/>
 
 
+
+Modify de docker-compose.yml file with the client secret
+
+KEYCLOAK_CLIENT_SECRET:
+
+```yml
+
+
 ### Application Properties
 
 #### `musicAppPersist/src/main/resources/application.properties`
@@ -152,8 +160,7 @@ mvn clean package -DskipTests
 To build and run the Docker container for `musicAppPersist`, use the following commands:
 
 ```sh
-docker build -t musicapp-persist -f musicAppPersist/Dockerfile .
-docker run -p 8080:8080 --env-file .env musicapp-persist
+docker-compose up --build
 ```
 
 ## License
