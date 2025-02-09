@@ -1,0 +1,3 @@
+[submodule "musicApp"]
+	path = musicApp
+	url = https://github.com/leandroAmariles/musicApp.git
